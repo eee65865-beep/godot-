@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="PickupConfig" format=3 uid="uid://cdc6078dubx4w"]
+
+[ext_resource type="Texture2D" uid="uid://ed1jgmxuvt6x" path="res://resources/atlas/pickup_spiral.tres" id="1_fvkqp"]
+[ext_resource type="Script" uid="uid://mo25df0p1s3e" path="res://resources/config/pickup_config.gd" id="1_jsr03"]
+
+[resource]
+script = ExtResource("1_jsr03")
+pickup_type = 2
+icon_texture = ExtResource("1_fvkqp")
+fire_rate_multiplier = 20.0
+player_form_mode = 1
+shot_pattern = 1
+metadata/_custom_type_script = "uid://mo25df0p1s3e"

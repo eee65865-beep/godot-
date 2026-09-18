@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="EnemyConfig" format=3 uid="uid://b3mti8mg6q5sh"]
+
+[ext_resource type="SpriteFrames" uid="uid://d3qnmar6kauet" path="res://resources/animation/enemy_shelled.tres" id="1_7hcef"]
+[ext_resource type="Script" uid="uid://mo25df0p1s3e" path="res://resources/config/pickup_config.gd" id="1_ax6jx"]
+[ext_resource type="Resource" uid="uid://yeradssi3c6l" path="res://resources/config/pickup_speed.tres" id="2_7hcef"]
+[ext_resource type="Resource" uid="uid://6ak1upky6c2h" path="res://resources/config/pickup_rapid.tres" id="3_7rafb"]
+[ext_resource type="Resource" uid="uid://cdc6078dubx4w" path="res://resources/config/pickup_spiral.tres" id="4_jot1f"]
+[ext_resource type="Script" uid="uid://dt85hidroc0wh" path="res://resources/config/enemy_config.gd" id="5_jilfn"]
+
+[resource]
+script = ExtResource("5_jilfn")
+enemy_type = 1
+display_name = "带壳敌人"
+max_health = 6
+move_speed = 10.0
+collision_radius = 10.0
+enemy_frames = ExtResource("1_7hcef")
+pickup_drop_chance = 0.8
+metadata/_custom_type_script = "uid://dt85hidroc0wh"
